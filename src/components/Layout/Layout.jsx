@@ -1,29 +1,26 @@
 import React from 'react';
-import {
-  StyledContainer,
-  StyledHeader,
-  StyledLogo,
-  StyledNavLink,
-} from './Layout.styled';
-import logoImg from '../../image/logo.png';
+import { StyledContainer } from './Layout.styled';
+
 import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Loader } from 'components/Loader/Loader';
+import { useMediaQuery } from 'react-responsive';
+import MobilHeader from 'components/MobilHeader/MobilHeader';
+import TabletHeader from 'components/TabletHeader/TabletHeader';
 
 const Layout = () => {
+  const isMobile = useMediaQuery({
+    query: '(max-width: 767px)',
+  });
+  const isDesktopOrTablet = useMediaQuery({
+    query: '(min-width: 768px)',
+  });
+
   return (
     <StyledContainer>
-      <StyledHeader>
-        <StyledLogo to="/">
-          <img src={logoImg} alt="logoImg" />
-        </StyledLogo>
-        <nav>
-          <StyledNavLink to="/">Currency exchange</StyledNavLink>
-          <StyledNavLink to="/transfers">money transfers</StyledNavLink>
-          <StyledNavLink to="/departments">Our departments</StyledNavLink>
-          <StyledNavLink to="/contacts">Contacts</StyledNavLink>
-        </nav>
-      </StyledHeader>
+      {isMobile && <MobilHeader />}
+      {isDesktopOrTablet && <TabletHeader />}
+
       <Suspense fallback={<Loader />}>
         <Outlet />
       </Suspense>

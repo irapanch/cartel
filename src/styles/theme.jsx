@@ -3,11 +3,13 @@ export const theme = {
     black: '#140e02',
     white: '#ffffff',
     gradient: 'linear-gradient(141.22deg, #491111 9.4%, #3c76a7 91.91%)',
-
+    active: '#cc1515',
+    hover: '#ff7e7e',
+    cardBackground: 'linear-gradient(141.22deg, #000000 9.4%, #686868 91.91%)',
     text: '#121417',
     spanText: `#3470ff`,
     background: '#bccdd8',
-    cardBackground: '#3c86b8',
+
     lightAccent: '#26deff',
     accent: '#206ea1',
     btnPrimary: 'rgba(255, 255, 255, 0.8)',

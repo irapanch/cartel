@@ -26,13 +26,6 @@ export const StyledHeader = styled.header`
 `;
 
 export const StyledNavLink = styled(NavLink)`
-  padding: 11px 16px;
-  border-radius: 4px;
-  text-decoration: none;
-  color: ${props => props.theme.colors.text};
-  font-weight: ${props => props.theme.fontWeights.medium};
-  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
   :hover,
   :focus {
     color: ${props => props.theme.colors.accent};
@@ -44,6 +37,14 @@ export const StyledNavLink = styled(NavLink)`
     background: ${props => props.theme.colors.gradient};
     box-shadow: 0 0 15px #2a2a2a;
   }
+  @media screen and (min-width: 768px) {
+    padding: 11px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: ${props => props.theme.colors.text};
+    font-weight: ${props => props.theme.fontWeights.medium};
+    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 `;
 export const StyledLogo = styled(NavLink)`
   width: 60px;
@@ -51,10 +52,9 @@ export const StyledLogo = styled(NavLink)`
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   img {
-    display: none;
-    @media screen and (min-width: 425px) {
+    @media screen and (min-width: 768px) {
       display: block;
-      width: 60px;
+      width: 160px;
     }
   }
 `;

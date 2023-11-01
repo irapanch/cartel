@@ -1,11 +1,11 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React App Cartel",
+  "name": "Create React App Cartel",
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "favicon.jpg",
       "sizes": "28x19",
-      "type": "image/png"
+      "type": "image/jpg"
     },
     {
       "src": "logo192.png",
