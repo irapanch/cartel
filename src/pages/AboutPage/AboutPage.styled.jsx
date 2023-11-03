@@ -102,9 +102,10 @@ export const StyledAboutCircle = styled.div`
   }
 `;
 
-export const StyledAboutBtnPhone = styled.button`
+export const StyledAboutBtnPhone = styled.a`
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 45px;
   height: 45px;
   border-radius: 50%;

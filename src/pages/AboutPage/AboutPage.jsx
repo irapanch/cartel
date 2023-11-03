@@ -14,7 +14,7 @@ import logoImg from '../../image/logo.png';
 import { FaTelegram } from 'react-icons/fa';
 import { FaPhoneVolume } from 'react-icons/fa6';
 
-// const phoneNumber = '+380999039003';
+const phoneNumber = '+380999039003';
 const AboutPage = () => {
   const handleClick = () => {
     window.open('https://t.me/cartel_obmen');
@@ -40,9 +40,7 @@ const AboutPage = () => {
             <span>BOT</span>
           </StyledAboutCircle>
         </StyledAboutWrap>
-        <StyledAboutBtnPhone className="phone">
-          {/* <a href={`tel:${phoneNumber}`} /> */}
-          {/* <a href="tel:+1234567890"></a> */}
+        <StyledAboutBtnPhone href={`tel:${phoneNumber}`} className="phone">
           <FaPhoneVolume />
         </StyledAboutBtnPhone>
       </StyledAboutSection>
