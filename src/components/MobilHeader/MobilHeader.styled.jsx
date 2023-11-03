@@ -14,6 +14,7 @@ export const StyledHeader = styled.header`
   z-index: 1100;
   font-size: ${props => props.theme.fontSizes.m};
   text-align: center;
+  border-bottom: 2px solid ${props => props.theme.colors.active};
   background: ${props => props.theme.colors.cardBackground};
   box-shadow: ${props => props.theme.shadows.boxShadowHeader};
 
