@@ -2,20 +2,22 @@ export const theme = {
   colors: {
     black: '#140e02',
     white: '#ffffff',
-    gradient: 'linear-gradient(141.22deg, #491111 9.4%, #3c76a7 91.91%)',
+    gradient: 'linear-gradient(141.22deg, #e61616 9.4%, #630202 91.91%)',
     active: '#cc1515',
     hover: '#ff7e7e',
     cardBackground: 'linear-gradient(141.22deg, #000000 9.4%, #686868 91.91%)',
     text: '#121417',
     spanText: `#3470ff`,
     background: '#bccdd8',
+    accent: '#1a6da5',
+    muted: ' #491291',
 
     lightAccent: '#26deff',
-    accent: '#206ea1',
+
     btnPrimary: 'rgba(255, 255, 255, 0.8)',
     btnSecondary: '#82b1b1',
     btnLoadMore: '#3470ff',
-    muted: ' #0b44cd',
+
     error: '#db680a',
     inputBg: `#f7f7fb`,
   },
@@ -52,7 +54,8 @@ export const theme = {
     round: '50%',
   },
   shadows: {
-    textShadow: '0 1px 1px #fff',
+    textShadow: '0 0px 20px #fff',
+    mutedShadow: '0 0px 20px #8848d1',
     boxShadowHeader: ' 0px 3px 5px -3px #161718',
     boxShadowDiv: '10px 10px 18px -12px #000000',
     boxShadowSearch: '2px 5px 5px -3px #161718',

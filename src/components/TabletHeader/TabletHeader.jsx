@@ -9,7 +9,7 @@ const TabletHeader = () => {
         <img src={logoImg} alt="logoImg" />
       </StyledLogo>
       <nav>
-        <StyledNavLink to="/">
+        <StyledNavLink to="/home">
           <span>Currency exchange</span>
         </StyledNavLink>
         <StyledNavLink to="/transfers">

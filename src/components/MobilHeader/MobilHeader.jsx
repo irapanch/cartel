@@ -13,7 +13,7 @@ const MobilHeader = () => {
         <img src={logoImg} alt="logoImg" />
       </StyledLogo>
       <nav>
-        <StyledNavLink to="/">
+        <StyledNavLink to="/home">
           <MdCurrencyExchange />
         </StyledNavLink>
         <StyledNavLink to="/transfers">
