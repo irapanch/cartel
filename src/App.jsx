@@ -14,10 +14,11 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<AboutPage />} />
-          <Route path="home" element={<HomePage />} />
-          <Route path="/kyiv" element={<Kyiv />} />
-          <Route path="/kharkiv" element={<Kharkiv />} />
-          <Route path="/pokrovsk" element={<Pokrovsk />} />
+          <Route path="home/" element={<HomePage />}>
+            <Route path="kyiv" element={<Kyiv />} />
+            <Route path="kharkiv" element={<Kharkiv />} />
+            <Route path="pokrovsk" element={<Pokrovsk />} />
+          </Route>
 
           <Route path="transfers" element={<TransfersPage />} />
           <Route path="departments" element={<DepartmentsPage />} />

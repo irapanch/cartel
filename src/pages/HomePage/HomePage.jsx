@@ -12,13 +12,13 @@ const HomePage = () => {
   return (
     <>
       <ul>
-        <StyledNavLink to="/kyiv">
+        <StyledNavLink to="kyiv">
           <Kyiv />
         </StyledNavLink>
-        <StyledNavLink to="/kharkiv">
+        <StyledNavLink to="kharkiv">
           <Kharkiv />
         </StyledNavLink>
-        <StyledNavLink to="/pokrovsk">
+        <StyledNavLink to="pokrovsk">
           <Pokrovsk />
         </StyledNavLink>
       </ul>
