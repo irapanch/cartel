@@ -11,8 +11,7 @@ export const theme = {
     background: '#bccdd8',
     accent: '#1a6da5',
     muted: ' #491291',
-
-    lightAccent: '#26deff',
+    lightAccent: 'rgba(118, 121, 122, 0.6)',
 
     btnPrimary: 'rgba(255, 255, 255, 0.8)',
     btnSecondary: '#82b1b1',
