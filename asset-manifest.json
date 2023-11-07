@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/cartel/static/css/main.7cda0caf.css",
-    "main.js": "/cartel/static/js/main.c4bd05be.js",
+    "main.js": "/cartel/static/js/main.be010c55.js",
     "static/media/bgDollars.png": "/cartel/static/media/bgDollars.ac5e1a0cc4ed1cd3c429.png",
     "static/media/bgDesc.jpg": "/cartel/static/media/bgDesc.9cb269dd4096762a59a0.jpg",
     "static/media/smartImg.png": "/cartel/static/media/smartImg.8856f7d2d5876ba70197.png",
+    "static/media/KyivMap_1.png": "/cartel/static/media/KyivMap_1.7585e96e457c790156f2.png",
+    "static/media/KharkivMap_1.png": "/cartel/static/media/KharkivMap_1.a3667d36c1ce771e8189.png",
+    "static/media/PokrovskMap_1.png": "/cartel/static/media/PokrovskMap_1.6e7cb64a98ccc4058e99.png",
+    "static/media/doll3d.png": "/cartel/static/media/doll3d.78978d091ba2b1951aec.png",
     "static/media/logo.png": "/cartel/static/media/logo.e740f770ba8be99ccf87.png",
+    "static/media/euro3d.jpg": "/cartel/static/media/euro3d.ca3c1a764b4789f64e16.jpg",
     "index.html": "/cartel/index.html",
     "main.7cda0caf.css.map": "/cartel/static/css/main.7cda0caf.css.map",
-    "main.c4bd05be.js.map": "/cartel/static/js/main.c4bd05be.js.map"
+    "main.be010c55.js.map": "/cartel/static/js/main.be010c55.js.map"
   },
   "entrypoints": [
     "static/css/main.7cda0caf.css",
-    "static/js/main.c4bd05be.js"
+    "static/js/main.be010c55.js"
   ]
 }
