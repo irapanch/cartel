@@ -19,10 +19,13 @@ export const StyledHomeSection = styled.section`
     display: flex;
     gap: 10px;
   }
+  @media screen and (min-width: 768px) {
+    min-height: calc(100vh - 98px);
+  }
 `;
 
 export const StyledListCities = styled.ul`
-  margin-top: 70px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   align-items: center;

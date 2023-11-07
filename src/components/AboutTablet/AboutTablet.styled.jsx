@@ -4,7 +4,7 @@ import BgAboutMobile from '../../image/bgDesc.jpg';
 export const StyledAboutSection = styled.section`
   position: relative;
   width: 100dvw;
-  min-height: calc(100vh - 100px);
+  min-height: calc(100vh - 98px);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: ${props => props.theme.colors.cardBackground};

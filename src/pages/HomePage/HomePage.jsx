@@ -1,6 +1,3 @@
-import Kharkiv from 'components/Kharkiv/Kharkiv';
-import Kyiv from 'components/Kyiv/Kyiv';
-import Pokrovsk from 'components/Pokrovsk/Pokrovsk';
 import React from 'react';
 import {
   StyledAboutBtn,
@@ -25,15 +22,9 @@ const HomePage = () => {
   return (
     <StyledHomeSection>
       <StyledListCities>
-        <StyledNavLink to="kyiv">
-          <Kyiv />
-        </StyledNavLink>
-        <StyledNavLink to="kharkiv">
-          <Kharkiv />
-        </StyledNavLink>
-        <StyledNavLink to="pokrovsk">
-          <Pokrovsk />
-        </StyledNavLink>
+        <StyledNavLink to="kyiv">Kyiv</StyledNavLink>
+        <StyledNavLink to="kharkiv">Kharkiv</StyledNavLink>
+        <StyledNavLink to="pokrovsk">Pokrovsk</StyledNavLink>
       </StyledListCities>
       <Suspense fallback={<Loader />}>
         <Outlet />
